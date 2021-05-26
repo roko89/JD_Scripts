@@ -25,7 +25,7 @@ jobs:
         with:
           source_repo: "https://github.com/wisz2021/jd_docker.git"
           source_branch: "main" #按照被GIT的仓库分支名称修改
-          destination_branch: "master" #按照自己仓库分支名称修改
+          destination_branch: "jd_docker" #按照自己仓库分支名称修改
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
           
           #######github_token获取教程######
