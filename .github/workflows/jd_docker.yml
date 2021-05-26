@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-scripts.yml
-name: 自动同步工作流程
+name: jd_docker
 on:
   schedule:
     - cron: '5 8,20 * * *' 
